@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Knighton Tech Invoice</title>
+  <style>
+    body{ font-family: Inter, Arial, sans-serif; margin:40px; color:#111; }
+    .top{ display:flex; justify-content:space-between; gap:20px; }
+    .brand{ font-weight:900; font-size:22px; color:#1D70A2; }
+    .muted{ color:#555; font-size:12px; }
+    table{ width:100%; border-collapse:collapse; margin-top:18px; }
+    th,td{ border:1px solid #ddd; padding:10px; text-align:left; }
+    th{ background:#1D70A2; color:#fff; }
+    .right{ text-align:right; }
+    .total{ font-weight:900; color:#EF233C; }
+    .box{ border:1px solid #ddd; padding:12px; margin-top:18px; }
+  </style>
+</head>
+<body>
+  <div class="top">
+    <div>
+      <div class="brand">Knighton Tech</div>
+      <div class="muted">Northern & Central Utah • contact@knightontech.com</div>
+    </div>
+    <div class="right">
+      <div style="font-weight:900;">INVOICE</div>
+      <div class="muted">Invoice #: KT-__________</div>
+      <div class="muted">Date: __________</div>
+      <div class="muted">Due: __________</div>
+    </div>
+  </div>
+
+  <div class="box">
+    <strong>Bill To:</strong><br/>
+    ______________________________<br/>
+    ______________________________<br/>
+    ______________________________
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Description</th>
+        <th class="right">Qty</th>
+        <th class="right">Rate</th>
+        <th class="right">Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Residential — Remote Troubleshooting (up to 60 min)</td>
+        <td class="right">1</td>
+        <td class="right">$95.00</td>
+        <td class="right">$95.00</td>
+      </tr>
+      <tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+      <tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+    </tbody>
+  </table>
+
+  <table>
+    <tbody>
+      <tr><td class="right" style="border:none;"></td><td class="right" style="border:none;">Subtotal</td><td class="right">$__________</td></tr>
+      <tr><td class="right" style="border:none;"></td><td class="right" style="border:none;">Magna Discount (10%)</td><td class="right">-$__________</td></tr>
+      <tr><td class="right" style="border:none;"></td><td class="right" style="border:none;">Tax</td><td class="right">$__________</td></tr>
+      <tr><td class="right" style="border:none;"></td><td class="right total" style="border:none;">Total</td><td class="right total">$__________</td></tr>
+    </tbody>
+  </table>
+
+  <div class="box">
+    <strong>Notes / Terms</strong><br/>
+    • Additional work outside the original scope is quoted and approved before proceeding.<br/>
+    • After-hours or emergency service may carry an additional fee if requested.<br/>
+    • Thank you for choosing Knighton Tech.
+  </div>
+</body>
+</html>
