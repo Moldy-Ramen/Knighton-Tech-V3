@@ -11,7 +11,7 @@
   <span>Fast, reliable support — from residential fixes to custom PCs and managed hosting.</span>
 </p>
 
-<p align="center">
+<p align="center" href="https://knightontech.com">
   <a href="#services"><img alt="Services" src="https://img.shields.io/badge/Services-2892D7?style=for-the-badge&logo=vercel&logoColor=white"></a>
   <a href="#pricing"><img alt="Pricing" src="https://img.shields.io/badge/Pricing-1D70A2?style=for-the-badge&logo=moneygram&logoColor=white"></a>
   <a href="#contact"><img alt="Contact" src="https://img.shields.io/badge/Contact-EF233C?style=for-the-badge&logo=gmail&logoColor=white"></a>
